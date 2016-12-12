@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CorePlot.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>KBRoundedButton.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>KVNProgress.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Depoza.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SmileTouchID.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>06B2232CE73059846F04E5C3DFEE0D38</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>722E74AF1DC4E9B685273642A6123D7A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89F756EF8A1750AC728C1B02A60CF865</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB80A9B993D6353FD303C8002CC69C74</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD6642FE2928CAD5BA8FDC7EF3A8A810</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
