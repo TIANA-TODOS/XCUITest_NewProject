@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "50844C94D85839F3D5917D41DA4E13A00DE28E76",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "50844C94D85839F3D5917D41DA4E13A00DE28E76" : 9223372036854775807,
+    "25050FB032E4BD9D1E194AE03DBF1FAE9380C727" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AB177C2B-E4C1-4C95-8501-ECC423DA77E1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "50844C94D85839F3D5917D41DA4E13A00DE28E76" : "XCUITest_NewProject\/",
+    "25050FB032E4BD9D1E194AE03DBF1FAE9380C727" : "Depoza"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Depoza",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Depoza.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vanyaland\/Depoza.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "25050FB032E4BD9D1E194AE03DBF1FAE9380C727"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/TIANA-TODOS\/XCUITest_NewProject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "50844C94D85839F3D5917D41DA4E13A00DE28E76"
+    }
+  ]
+}
