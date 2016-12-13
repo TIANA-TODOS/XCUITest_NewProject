@@ -45,7 +45,7 @@ class DepozaUITests: XCTestCase {
         testAddingExpences()
         
         let descriptionCell = app.tables.staticTexts["coat"]
-        waitForElementToAppear(format: "isHittable == true", element: descriptionCell, time: 3.0)
+        waitForElementToAppear(format: "isHittable == true", element: descriptionCell, time: 5.0)
         descriptionCell.tap()
         
         let trashButton = app.navigationBars["Expense"].buttons["Trash"]
@@ -57,17 +57,38 @@ class DepozaUITests: XCTestCase {
         let actual = tablesQuery["0"].staticTexts["total_expenses_amount"].label
         XCTAssert(actual == "0", "Total amount is \(actual)")
         
-        waitForElementToAppear(format: "self.count = 1", element: tablesQuery, time: 3.0)
+        waitForElementToAppear(format: "self.count = 1", element: tablesQuery, time: 5.0)
         XCTAssertEqual(tablesQuery.cells.count, 0, "found instead: \(tablesQuery.cells.debugDescription)")
     }
     
     // create a new method waitForElementToAppear
+    
+       func testEditExpenseAmount(){
+        testAddingExpences()
+        
+        let descriptionCell = tablesQuery.cells["cell_0"].staticTexts["coat"]
+        waitForElementToAppear(format: "isHittable == true", element: descriptionCell, time: 5.0)
+        descriptionCell.tap()
+        
+        let editButton = app.navigationBars["Expense"].buttons["Edit"]
+        editButton.tap()
+        
+        let expenseAmount = XCUIApplication().tables.cells.element(boundBy: 0)
+        expenseAmount.doubleTap()
+        expenseAmount.typeText("210")
+        
+        let doneButton = app.navigationBars["Expense"].buttons["Done"]
+        doneButton.tap()
+        
+        let totalExpenses = tablesQuery.staticTexts["total_expenses_amount"].label
+        XCTAssert(totalExpenses == "210", "actual total amount \(totalExpenses)")
+        
+    }
     
     func waitForElementToAppear(format: String, element: AnyObject, time: Double){
         let exists = NSPredicate(format: format)
         expectation(for: exists, evaluatedWith: element, handler: nil)
         waitForExpectations(timeout: time, handler: nil)
     }
-    
     
 }
