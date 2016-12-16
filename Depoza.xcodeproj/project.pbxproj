@@ -151,7 +151,14 @@
 		50FDE3B51A9B5EE4007C9FC0 /* CategoryInfoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FDE3B41A9B5EE4007C9FC0 /* CategoryInfoCollectionViewCell.m */; };
 		752C6E7A1BFC9AFA00320C92 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 752C6E781BFC9AFA00320C92 /* LaunchImage.png */; };
 		752C6E7B1BFC9AFA00320C92 /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 752C6E791BFC9AFA00320C92 /* LaunchImage@2x.png */; };
-		94239B6B1DFE4F24007A3B61 /* DepozaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94239B6A1DFE4F24007A3B61 /* DepozaUITests.swift */; };
+		94239B761DFFA7E4007A3B61 /* AddExpenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94239B751DFFA7E4007A3B61 /* AddExpenses.swift */; };
+		94239B781DFFA7F8007A3B61 /* ExpensesSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94239B771DFFA7F8007A3B61 /* ExpensesSummary.swift */; };
+		9478E3BD1E03E11000552ED5 /* XCUIElementExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478E3BC1E03E11000552ED5 /* XCUIElementExtention.swift */; };
+		9478E3BF1E03E1B800552ED5 /* AddDeleteExpenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478E3BE1E03E1B800552ED5 /* AddDeleteExpenses.swift */; };
+		9478E3C11E03E1E600552ED5 /* EditExpenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478E3C01E03E1E600552ED5 /* EditExpenses.swift */; };
+		9478E3C31E03E64300552ED5 /* ExpensesDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478E3C21E03E64300552ED5 /* ExpensesDetails.swift */; };
+		94F8345A1E00C39000904DD3 /* BaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F834591E00C39000904DD3 /* BaseTests.swift */; };
+		94F8345C1E00D44900904DD3 /* BaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F8345B1E00D44900904DD3 /* BaseScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -399,8 +406,15 @@
 		752C6E791BFC9AFA00320C92 /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
 		7A809A823B6855AA3F640337 /* libPods-Depoza.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Depoza.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94239B681DFE4F24007A3B61 /* DepozaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepozaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		94239B6A1DFE4F24007A3B61 /* DepozaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepozaUITests.swift; sourceTree = "<group>"; };
 		94239B6C1DFE4F24007A3B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94239B751DFFA7E4007A3B61 /* AddExpenses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenses.swift; sourceTree = "<group>"; };
+		94239B771DFFA7F8007A3B61 /* ExpensesSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpensesSummary.swift; sourceTree = "<group>"; };
+		9478E3BC1E03E11000552ED5 /* XCUIElementExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCUIElementExtention.swift; sourceTree = "<group>"; };
+		9478E3BE1E03E1B800552ED5 /* AddDeleteExpenses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDeleteExpenses.swift; sourceTree = "<group>"; };
+		9478E3C01E03E1E600552ED5 /* EditExpenses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditExpenses.swift; sourceTree = "<group>"; };
+		9478E3C21E03E64300552ED5 /* ExpensesDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpensesDetails.swift; sourceTree = "<group>"; };
+		94F834591E00C39000904DD3 /* BaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTests.swift; sourceTree = "<group>"; };
+		94F8345B1E00D44900904DD3 /* BaseScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseScreen.swift; sourceTree = "<group>"; };
 		CFAB0BD41F48196056CD2126 /* Pods-Depoza.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Depoza.release.xcconfig"; path = "Pods/Target Support Files/Pods-Depoza/Pods-Depoza.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1016,10 +1030,41 @@
 		94239B691DFE4F24007A3B61 /* DepozaUITests */ = {
 			isa = PBXGroup;
 			children = (
-				94239B6A1DFE4F24007A3B61 /* DepozaUITests.swift */,
+				9478E3BB1E03E0DB00552ED5 /* Extensions */,
+				94F834571E00C31C00904DD3 /* Tests */,
+				94239B721DFFA7AF007A3B61 /* Screens */,
 				94239B6C1DFE4F24007A3B61 /* Info.plist */,
 			);
 			path = DepozaUITests;
+			sourceTree = "<group>";
+		};
+		94239B721DFFA7AF007A3B61 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				94239B751DFFA7E4007A3B61 /* AddExpenses.swift */,
+				94239B771DFFA7F8007A3B61 /* ExpensesSummary.swift */,
+				94F8345B1E00D44900904DD3 /* BaseScreen.swift */,
+				9478E3C21E03E64300552ED5 /* ExpensesDetails.swift */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		9478E3BB1E03E0DB00552ED5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9478E3BC1E03E11000552ED5 /* XCUIElementExtention.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		94F834571E00C31C00904DD3 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				94F834591E00C39000904DD3 /* BaseTests.swift */,
+				9478E3BE1E03E1B800552ED5 /* AddDeleteExpenses.swift */,
+				9478E3C01E03E1E600552ED5 /* EditExpenses.swift */,
+			);
+			name = Tests;
 			sourceTree = "<group>";
 		};
 		C73983BBCFAEFB03AF334D94 /* Frameworks */ = {
@@ -1404,7 +1449,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94239B6B1DFE4F24007A3B61 /* DepozaUITests.swift in Sources */,
+				94239B781DFFA7F8007A3B61 /* ExpensesSummary.swift in Sources */,
+				94239B761DFFA7E4007A3B61 /* AddExpenses.swift in Sources */,
+				9478E3BF1E03E1B800552ED5 /* AddDeleteExpenses.swift in Sources */,
+				9478E3BD1E03E11000552ED5 /* XCUIElementExtention.swift in Sources */,
+				94F8345A1E00C39000904DD3 /* BaseTests.swift in Sources */,
+				9478E3C31E03E64300552ED5 /* ExpensesDetails.swift in Sources */,
+				9478E3C11E03E1E600552ED5 /* EditExpenses.swift in Sources */,
+				94F8345C1E00D44900904DD3 /* BaseScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1741,6 +1793,7 @@
 				94239B701DFE4F24007A3B61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
